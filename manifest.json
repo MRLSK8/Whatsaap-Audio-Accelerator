@@ -1,7 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "WhatsappAudioAccelerator",
+  "name": "WhatsappAudioSpeed",
   "version": "0.1",
+  "description": "Simple whatsapp audio speed up and down! There're some speeds available for now [0.5x, 1x, 1.5x, 2x].",
+  "icons": {
+    "16": "assets/icon16x16.png",
+    "48": "assets/icon64x64.png",
+    "128": "assets/icon128x128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://web.whatsapp.com/"],
